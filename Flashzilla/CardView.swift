@@ -25,7 +25,6 @@ struct CardView: View {
                     differentiateWithoutColor
                     ? .white
                     : .white.opacity(1 - Double(abs(offset.width / 50 )))
-
                 )
                 .background(
                     differentiateWithoutColor
